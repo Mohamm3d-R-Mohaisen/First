@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+opacity: 0.8;
+font-size: 16px;
+}
+.first_sc{
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+
+
+.first_sc_text{
+
+    margin-left: -170px;
+    margin-top: -100px;
+}
+.first_sc_text h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+
+}
+.first_sc_text p {
+    width: 290px;
+    margin-left: 65px;
+}
+/* ************************* */
+
+
+.secend_sc{
+height: 100vh;
+display: flex;
+gap: 100px;
+align-items: center;
+justify-content: center;
+vertical-align: top ;
+background-color:#F5F4FB;
+}
+.secend_sc_text{
+    width: 400px;
+}
+.secend_sc_text h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+
+.secend_sc_img{
+    margin-top: 50px;
+   
+}
+/* **************** */
+
+.therd_sc{
+    height: 150vh;
+    background-color:#FFFFEF;
+    padding-top: 100px;
+}
+.therd_sc_main{
+    text-align: center;
+
+    width: 360px;
+    margin: 0 auto; 
+}
+.therd_sc_main h2 {
+
+font-size: 37px;
+margin-bottom: 40px;
+
+}
+.therd_sc_main p {
+    font-size: 15px;
+    color: rgb(16,20,31);
+}
+.card{
+    text-align: center;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+.card h3 {
+    margin-bottom: 15px;
+}
+.contener{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+    margin-top: 70px;
+}
+/* ************** */
+.fored_sc{
+    height: 130vh;
+    padding-top: 70px;
+
+}
+.fored_sc_main{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.fored_sc_main h2 {
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+.fored_sc_contener{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    justify-items: center;
+    gap: 30px;
+}
+.fored_sc_contener img{
+    width: 100%;
+}
+.four_sc_img{
+    display: flex;
+    justify-content: center;
+    
+}
+/* ******************** */
+.contact_us{
+    height: 80vh;
+    width: 400px;
+margin: 0 auto;
+}
+
+.contact_us input{
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.contact_us h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+.contact_us textarea {
+    width: 400px;
+    height: 120px;
+    resize: none;
+    border-radius: 5px;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.contact_us button {
+margin-top: 15px;
+width: 250px;
+height: 35px;
+border-radius: 10px;
+border: none;
+background-color: #FAC031;
+text-align: center;
+color: white;
+
+}
+/* ********************** */
+.team{
+    width: 100%;
+    height: 110vh;
+    background-image: url(about-img.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.team h1{
+    display: flex;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.team h1 span{
+    font-family: mv boli ;
+    color: #fac031;
+    margin-left: 15px;
+}
+
+.team .team_box .profile img{
+    width: 150px;
+}
+.team h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fac031;
+    position: relative;
+    bottom: 15px;
+    display: block; 
+}
+
+.team .team_box{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+
+    align-items: center;
+    justify-content:  center;
+   margin-top: 100px;
+}
+
+.team .team_box .profile{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 8px rgb(0, 0, 0,0.5);
+    transition: 0.4s;
+}
+.team .team_box .profile:hover{
+    border-radius: 20px;
+    height: 320px;
+}
+.team .team_box .profile img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgb(0, 0, 0,0.5);
+    z-index: 2;
+    transition: 0.4s;
+}
+.team .team_box .profile:hover img{
+    border-radius: 20px;
+    margin-top: -230px;
+}
+
+.team .team_box .profile .info{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    transition: 0.4s;
+}
+.team .team_box .profile:hover .info{
+    top: 60%;
+}
+.team .team_box .profile .info .name{
+    color: #fac031;
+    margin-bottom: 15px;
+}
+.team .team_box .profile .info .bio{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto 10px auto
+}
+.team .team_box .profile .info .team_icon i{
+    margin: 10px 5px 5px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.team .team_box .profile .info .team_icon i:hover{
+    color: #fac031;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.row{
+display: flex;
+flex-wrap: wrap;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #fac031;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+
+
+
+
+
